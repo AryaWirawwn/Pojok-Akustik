@@ -1,0 +1,199 @@
+*, html {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar-logo {
+    width: 9%;
+    height: 9%;
+}
+
+.navbar-search-bar {
+    margin-top: 1%;
+    display: flexbox;
+    width: 70%;
+}
+
+.search-bar {
+    color: #767E8F;
+    font-size: medium;
+    padding: 0 1% 0 1%;
+    width: 100%;
+    height: 35px;
+    border: 2px solid #767E8F;
+    border-radius: 10px;
+    border-color: #767E8F;
+}
+
+.search-bar:focus {
+    outline: none;
+    border-color: #767E8F;
+}
+
+.search-bar::placeholder {
+    color: #767E8F;
+}
+
+.navbar-bottom-ul {
+    margin-top: 0.5%;
+    list-style: none;
+    display: flex;
+}
+
+.navbar-bottom-li {
+    margin: 0 0.8% 0 0.8%;
+}
+
+.navbar-bottom-a {
+    color: #767E8F;
+    text-decoration: none;
+}
+
+.navbar-ul {
+    margin-right: 2.5%;
+    margin-bottom: 0.9%;
+    list-style: none;
+    display: flex;
+}
+
+.navbar-li {
+    margin: 0 23% 0 3%;
+}
+
+.navbar-a {
+    color: black;
+    text-decoration: none;
+}
+
+.main-banner {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin: 0 10% 0 10%;
+    background-color: #1781BB;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    border: 0px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.banner-text {
+    color: #FFFFFF;
+    height: 20%;
+    padding-top: 2.1%;
+    padding-left: 3.3%;
+    padding-bottom: 2.5%;
+}
+
+.banner-text-h1 {
+    width: 80%;
+    font-size: 240%;
+}
+
+.banner-text-p {
+    padding-top: 2.1%;
+    font-size: large;
+    width: 75%;
+}
+
+.banner-image {
+    margin-top: 3%;
+    margin-right: 5%;
+    padding-right: 5%;
+    width: 22%;
+    height: 22%;
+}
+
+.main-hr {
+    margin: 2.3% 10% 0 10%;
+    background-color: #E7E7E7;
+    border: none;
+    height: 3px;
+}
+
+.header-akustik {
+    margin: 1.5% 10% 0 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-akustik-h2 {
+    color: #000000;
+}
+
+.header-akustik-ls {
+    color: #1781BB;
+}
+
+.container-akustik {
+    margin: 1.5% 10% 0 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-akustik {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.04);
+    width: 200px;
+    padding: 1%;
+    border: 0px;
+    border-radius: 10px;
+}
+
+.akustik-img {
+    margin-left: 10%;
+    width: 80%;
+    height: auto;
+}
+
+.merk-akustik {
+    color: #A9A9A9;
+}
+
+.tipe-akustik {
+    margin-top: 5px;
+}
+
+.harga-akustik {
+    color: #1781BB;
+}
+
+.footer-hr {
+    margin-top: 2.3%;
+    background-color: #E7E7E7;
+    border: none;
+    height: 2px;
+}
+
+.footer-main {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5% 15% 0 15%;
+    height: 150px;
+}
+
+.footer-h2 {
+    font-weight: 500;
+}
+
+.footer-h4 {
+    color: #73767A;
+}
+
+.footer-img {
+    height: 85%;
+}
+
